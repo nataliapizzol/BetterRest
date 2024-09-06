@@ -12,6 +12,8 @@
 		BC2550B82C85E71400EFE225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2550B72C85E71400EFE225 /* Assets.xcassets */; };
 		BC2550BB2C85E71400EFE225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2550BA2C85E71400EFE225 /* Preview Assets.xcassets */; };
 		BC2550C62C86018100EFE225 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BC2550C52C86018100EFE225 /* SleepCalculator.mlmodel */; };
+		BC2550C82C874BF600EFE225 /* RecomendedBedtimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2550C72C874BF600EFE225 /* RecomendedBedtimeComponent.swift */; };
+		BC2550CC2C874ED400EFE225 /* BetterRestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2550CB2C874ED400EFE225 /* BetterRestViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		BC2550B72C85E71400EFE225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC2550BA2C85E71400EFE225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BC2550C52C86018100EFE225 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
+		BC2550C72C874BF600EFE225 /* RecomendedBedtimeComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedBedtimeComponent.swift; sourceTree = "<group>"; };
+		BC2550CB2C874ED400EFE225 /* BetterRestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				BC2550C52C86018100EFE225 /* SleepCalculator.mlmodel */,
 				BC2550B32C85E71200EFE225 /* BetterRestApp.swift */,
 				BC2550B52C85E71200EFE225 /* ContentView.swift */,
+				BC2550CB2C874ED400EFE225 /* BetterRestViewModel.swift */,
+				BC2550C72C874BF600EFE225 /* RecomendedBedtimeComponent.swift */,
 				BC2550B72C85E71400EFE225 /* Assets.xcassets */,
 				BC2550B92C85E71400EFE225 /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC2550C82C874BF600EFE225 /* RecomendedBedtimeComponent.swift in Sources */,
 				BC2550C62C86018100EFE225 /* SleepCalculator.mlmodel in Sources */,
 				BC2550B62C85E71200EFE225 /* ContentView.swift in Sources */,
+				BC2550CC2C874ED400EFE225 /* BetterRestViewModel.swift in Sources */,
 				BC2550B42C85E71200EFE225 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
